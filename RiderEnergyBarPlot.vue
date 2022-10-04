@@ -1,4 +1,5 @@
 <template>
+  <!-- 测试 -->
   <div class="box">
     <e-chart ref="myChart" id="myChart" />
   </div>
@@ -76,7 +77,6 @@ export default {
         top: 5,
         bottom: 0,
         orient: "vertical",
-        //测试pull
         itemWidth: 8,
         itemHeight: 8,
         textStyle: {
