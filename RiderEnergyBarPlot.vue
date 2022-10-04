@@ -1,5 +1,4 @@
 <template>
-  <!-- 测试 -->
   <div class="box">
     <e-chart ref="myChart" id="myChart" />
   </div>
@@ -12,16 +11,16 @@ export default {
     let myChart = echarts.init(this.$refs.myChart);
 
     let option = {
-      // dataset: {
-      //   source: [
-      //     ["type", "rider1","rider2","rider3","rider4","rider5"],
-      //     ["rider1", 99,92],
-      //     ["rider2", 98,78],
-      //     ["rider3",0,0,],
-      //     ["rider4",98,84],
-      //     ["rider5",102,79]
-      //   ]
-      // },
+      dataset: {
+        source: [
+          ["type", "rider1","rider2","rider3","rider4","rider5"],
+          ["rider1", 99,92],
+          ["rider2", 98,78],
+          ["rider3",0,0,],
+          ["rider4",98,84],
+          ["rider5",102,79]
+        ]
+      },
       color: ["#32f1dd", "#fa5435"],
       title: {
         text: "Rider energy level report \n Total and over-CP\n Percentage of defined maximum",
