@@ -76,7 +76,7 @@ export default {
         top: 5,
         bottom: 0,
         orient: "vertical",
-
+        //测试pull
         itemWidth: 8,
         itemHeight: 8,
         textStyle: {
